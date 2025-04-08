@@ -1,16 +1,12 @@
-# Hello world
-## Hello world
-### Hello world
-#### Hello world
-
+# Hello World
+## Hello World
+### Hello World
+#### Hello World
 abc
-
-
-
-| Name  | Address | Salary |
-|-------|:------:|---:|
-| John Doe | 123 Maple Street | 50000000|
-| Jane Smith | 456 Oak Avenue, Riverdale |1000|
+| **Name**| **Address** | **Salary**|
+|---------|:-------------:|----------:|
+| Siti Nur Elisya | 11 Jalan PI |50000|
+| Nurul | Taman Pulai Jaya |30|
 
 ## KaTeX
 
@@ -24,13 +20,14 @@ $$
 
 > You can find more information about **LaTeX** mathematical expressions [here](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
 
+
 ## UML diagrams
 
 You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
 
 ```mermaid
 sequenceDiagram
-Chong ->> Bob: Hello Bob, how are you?
+Alice ->> Bob: Hello Bob, how are you?
 Bob-->>John: How about you John?
 Bob--x Alice: I am good thanks!
 Bob-x John: I am good thanks!
@@ -48,4 +45,3 @@ A[Square Rect] -- Link text --> B((Circle))
 A --> C(Round Rect)
 B --> D{Rhombus}
 C --> D
-```

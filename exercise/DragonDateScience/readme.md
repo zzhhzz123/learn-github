@@ -6,11 +6,13 @@
 abc
 
 
-
 | Name  | Address | Salary |
 |-------|:------:|---:|
-| John Doe | 123 Maple Street | 50000000|
-| Jane Smith | 456 Oak Avenue, Riverdale |1000|
+| Dragon | 123 Maple Street | 50000000|
+| ZHANG | 456 Oak Avenue, Riverdale |1000|
+
+# ~~hello world~~
+
 
 ## KaTeX
 
@@ -30,7 +32,7 @@ You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For e
 
 ```mermaid
 sequenceDiagram
-Chong ->> Bob: Hello Bob, how are you?
+Alice ->> Bob: Hello Bob, how are you?
 Bob-->>John: How about you John?
 Bob--x Alice: I am good thanks!
 Bob-x John: I am good thanks!
